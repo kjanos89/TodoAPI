@@ -29,7 +29,6 @@ namespace TodoAPI.Controllers
         }
 
         [HttpPost]
-        [HttpPost]
         public ActionResult<TodoItem> Create(TodoItem todoItem)
         {
             todoItem.Id = _nextId++;
